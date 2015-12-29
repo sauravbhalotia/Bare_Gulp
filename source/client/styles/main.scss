@@ -1,0 +1,39 @@
+// Modules and Variables
+@import "partials/base";
+
+// Partials
+@import "partials/reset";
+@import "partials/typography";
+@import "partials/buttons";
+@import "partials/figures";
+@import "partials/grids";
+// ...
+
+html {
+//    background-color: #edb23d;
+    background-color: red;
+    body {
+        background-color: white;
+        header {
+            height: 40px;
+            border: 1px solid red;
+            nav {
+                line-height: 40px;
+                border: 1px solid black;
+            }
+        }
+        section {
+
+        }
+        div {
+
+        }
+        footer {
+            ul {
+                li {
+
+                }
+            }
+        }
+    }
+}
